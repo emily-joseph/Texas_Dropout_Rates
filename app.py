@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 from collections import namedtuple
 
-loaded_model = pickle.load(open("mymodel.sav", 'rb'))
+loaded_model = pickle.load(open("mymodel (1).sav", 'rb'))
 
 st.text("This is an app that predicts dropout rate based on inputed factors")
 
